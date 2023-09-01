@@ -1,11 +1,18 @@
 import 'dart:math';
+import 'dart:ui';
 
 
 class CalculatorBrain {
 
-  CalculatorBrain({ required this.height,required this.weight});
-    final int height;
-    final int weight;
+  CalculatorBrain({ required this.height,required this.weight,required this.age,required this.myColor,required this.myColor1});
+     late int height;
+     late int weight;
+     late int age;
+     late Color myColor;
+     late Color myColor1;
+
+
+
 
      double? bmi;
 String bmiCalculate(){
@@ -36,7 +43,5 @@ String conditionText(){
 
 
 
-
-
-
 }
+
